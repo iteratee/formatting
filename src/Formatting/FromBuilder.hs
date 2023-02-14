@@ -49,6 +49,7 @@ instance FromBuilder [Char] where
 --   the typeclass.
 --
 --   For example:
+--
 --   >>> formatted TL.putStr ("x is: " % int % "\n") 7
 --   x is: 7
 --   >>> formatted T.putStr ("x is: " % int % "\n") 7
